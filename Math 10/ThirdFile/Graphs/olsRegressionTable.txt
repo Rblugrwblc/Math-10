@@ -1,0 +1,27 @@
+                                   OLS Regression Results                                   
+============================================================================================
+Dep. Variable:     Housing Price Index (2010 = 100)   R-squared:                       0.965
+Model:                                          OLS   Adj. R-squared:                  0.964
+Method:                               Least Squares   F-statistic:                     792.9
+Date:                              Tue, 07 Nov 2023   Prob (F-statistic):           1.30e-22
+Time:                                      01:37:47   Log-Likelihood:                -100.45
+No. Observations:                                31   AIC:                             204.9
+Df Residuals:                                    29   BIC:                             207.8
+Df Model:                                         1                                         
+Covariance Type:                          nonrobust                                         
+==============================================================================================
+                                 coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------------
+const                         23.5734      2.455      9.601      0.000      18.552      28.595
+Average Gross Income (PHP)     0.0005   1.92e-05     28.159      0.000       0.001       0.001
+==============================================================================
+Omnibus:                        2.008   Durbin-Watson:                   0.284
+Prob(Omnibus):                  0.366   Jarque-Bera (JB):                1.173
+Skew:                           0.095   Prob(JB):                        0.556
+Kurtosis:                       2.066   Cond. No.                     2.74e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.74e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
